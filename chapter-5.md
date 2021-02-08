@@ -36,3 +36,9 @@ int main(){
     return 0;
 }
 ```
+
+2. They can both access the file descriptor. Uncertainly but mostly, the parent writes before the child if they are writing to the file concurrently.
+3. use kill() to send SIGCONT signal to parent process
+4. STFW
+5. if success, return value is the PID of the child process;else return -1
+6. won't show in the terminal
