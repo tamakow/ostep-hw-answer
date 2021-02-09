@@ -2,7 +2,7 @@
 
 ## 6.1 limited direct execution
 1. **direct execution**: just run the program directly on the CPUs.the figure shows this basic direct execution protocol (notice this is no limit situation)
-![protocol](figs/c6/protocol.png)
+![protocol](figs/N6/protocol.png)
 
 ####  direct execution causes two problems
 ## 6.2 restricted operations
@@ -18,7 +18,7 @@
     3. **return-from-trap** instruction: return into the calling user program and reduce the privileged level back to user mode
        *  **notice**: to make sure to be able to return correctly when **return-from-trap**, os needs to save enough informations (on x86,what will it save? including registers, flags, program counter and so on)
 3. **limited direct execution**, also called **LDE**
-![LDE-PRO](figs/c6/LDE-pro.png)
+![LDE-PRO](figs/N6/LDE-pro.png)
 
 ## 6.3 switching between processes
 #### The second one: switching between processes
@@ -34,10 +34,13 @@ briefly describe: **if a process is running on the CPU, it means that the os is 
 3. **scheduler**: a part of the operating system, which makes decision on whether to continue running the current-running process ,or switch to a different one
 
 4. **context switch**: save a few register values for the current-executing process and restore a few for the soon-be-executing process, here is an example of context switch from Process A to Process B  
-![contextswitchAB](figs/c6/switch-context-from-A-to-B.png)
+![contextswitchAB](figs/N6/switch-context-from-A-to-B.png)
 
-## A vital problem
-which process should we run at a given time? **scheduler** answer the question
+## summary and a vital problem
+* summary:
+  * we have described some key low-level mechanisms to implement CPU virtualization
+  * a set of techniques which we refer to as **LDE**
+* problem: which process should we run at a given time? **scheduler** answer the question
 
 
 
