@@ -1,4 +1,4 @@
-# homework answer for chapter 6
+# homework answer of chapter 6
 
 ### the precision and accuracy of timer
 run this code:  

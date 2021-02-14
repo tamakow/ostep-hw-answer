@@ -1,4 +1,4 @@
-# ANSWER for chapter 4
+# ANSWER of chapter 4
 
 1.  100% , because there is no IO process
 2.  total time is 11 clock ticks with 4(prcess 0) and 7(process 1)

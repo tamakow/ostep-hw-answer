@@ -1,4 +1,4 @@
-# note for chapter 6 (cpu-mechanism)
+# note of chapter 6 (cpu-mechanism)
 
 ## 6.1 limited direct execution
 1. **direct execution**: just run the program directly on the CPUs.the figure shows this basic direct execution protocol (notice this is no limit situation)
