@@ -1,5 +1,7 @@
 # note of chapter 7 (cpu-sched)
 
+Time-share scheduler
+
 ## 7.1 woekload assumptions
 1. some assumptions about the processes(sometimes called **jobs**):
    1. each job runs for the same amount of time
