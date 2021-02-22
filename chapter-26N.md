@@ -1,0 +1,1 @@
+note of chapter 26
