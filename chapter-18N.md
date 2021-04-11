@@ -18,7 +18,7 @@ as talked in chapter 17, **the first approach** is to chop things up into *varia
 2. **page table(pre-process data structure)**: store address translations for each of the virtual pages of the address space, thus letting us know where in physical memory each page resides.
 3. address translation:
 
-![vpn](D:\study\大二下\操作系统\ostep-hw-answer\figs\N18\VPN.png)
+![vpn](figs/N18/VPN.png)
 
 ## 18.2 Where Are Page Tables Stored
 
@@ -40,7 +40,7 @@ page tables are so big, we store the page table for each process in memory **som
 
 ## 18.4 Paging: Also Too Slow
 
-1. ![paging](D:\study\大二下\操作系统\ostep-hw-answer\figs\N18\paging.png)
+1. ![paging](figs/N18/paging.png)
 
 now **two** real problems to solve: page tables will cause the system to **run too slowly**, as well as **take up too much memory**
 

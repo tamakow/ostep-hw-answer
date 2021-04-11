@@ -26,7 +26,7 @@
 
 ## 15.4 hardware support
 
-![support](D:\study\大二下\操作系统\ostep-hw-answer\figs\N15\hardwaresupport.png)
+![support](figs/N15/hardwaresupport.png)
 
 
 
@@ -34,7 +34,7 @@
 
 ## 15.5 OS issues
 
-![os](D:\study\大二下\操作系统\ostep-hw-answer\figs\N15\osissues.png)
+![os](figs/N15/osissues.png)
 
 1. notice: OS must save and restore base and limit registers in context switch in some per-process structure such as the process structure or process control block(**PCB**)
 
@@ -42,8 +42,8 @@
 
 updated-LDE-boot:
 
-![lde](D:\study\大二下\操作系统\ostep-hw-answer\figs\N15\updated-LDE.png)
+![lde](figs/N15/updated-LDE.png)
 
 updated-LDE-runtime:
 
-![runtime](D:\study\大二下\操作系统\ostep-hw-answer\figs\N15\updated-LDE@runtime.png)
+![runtime](figs/N15/updated-LDE@runtime.png)
