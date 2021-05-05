@@ -165,7 +165,9 @@ void lock(lock_t *lock) {
     while (LoadLinked(&lock->flag) == 1)
       ; // spin until it's zero
     if (StoreConditional(&lock->flag, 1) == 1)
-      return; // if set to 1: success
+      return; // if set to 1: success将线程的堆栈放置在同一个地址空间中，在实现上既比较容易，同时对 C 程序的执行也是非常必要的，例如我们可以写出以下代码：
+
+
   }
 }
 ```
